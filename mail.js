@@ -10,7 +10,7 @@ const sendMail = (email, subject, text, callback) => {
   });
   var mailOptions = {
     from: email,
-    to: "anmayaagarwal1856@gmail.com",
+    to: "admin@gmail.com",
     subject,
     text,
   };
